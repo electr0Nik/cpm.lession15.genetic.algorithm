@@ -1,3 +1,11 @@
+/settings.gradle
+/gradlew.bat
+/gradlew
+/cpm.lession15.genetic.algorithm.iml
+/gradle
+/.idea
+/build
+/.gradle
 *.class
 
 # Mobile Tools for Java (J2ME)
