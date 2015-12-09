@@ -23,9 +23,29 @@ public class MainApp {
     // generate random tour
     final List<City> cityList = new ArrayList<>();
     cityList.add(new City("a",  60L, 200L));
-    cityList.add(new City("b", 180L, 200L));
-    cityList.add(new City("c",  80L, 180L));
-    cityList.add(new City("d", 140L, 180L));
+    cityList.add(new City("b", 180L, 220L));
+    cityList.add(new City("c",  80L, 130L));
+    cityList.add(new City("d", 140L, 140L));
+    cityList.add(new City("e", 260L, 250L));
+    cityList.add(new City("f", 180L, 200L));
+    cityList.add(new City("g", 380L, 160L));
+    cityList.add(new City("h", 140L, 170L));
+    cityList.add(new City("i",  30L, 280L));
+    cityList.add(new City("j", 120L, 290L));
+    cityList.add(new City("k",  50L,  80L));
+    cityList.add(new City("l", 140L,  20L));
+    cityList.add(new City("m",  10L,  60L));
+    cityList.add(new City("n", 180L,  80L));
+    cityList.add(new City("o",  30L, 380L));
+    cityList.add(new City("p", 140L, 120L));
+    cityList.add(new City("q", 340L, 280L));
+    cityList.add(new City("r", 180L, 300L));
+    cityList.add(new City("s", 280L,  60L));
+    cityList.add(new City("t", 140L,  80L));
+    cityList.add(new City("u",  80L, 240L));
+    cityList.add(new City("v", 180L, 350L));
+    cityList.add(new City("w", 120L,  80L));
+    cityList.add(new City("x",  30L, 180L));
 
     final GeneticAlgorithm geneticAlgorithm = new GeneticAlgorithm(5, 0.015, true);
 
