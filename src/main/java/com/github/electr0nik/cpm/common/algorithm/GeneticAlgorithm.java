@@ -113,6 +113,9 @@ public class GeneticAlgorithm {
     final int start = (int) (Math.random() * father.getCityList().size());
     final int end = (int) (Math.random() * mother.getCityList().size());
 
+    /**
+     * apply father to child
+     */
     for (int i = 0; i < child.getCityList().size(); i++) {
       if (start < end && (i > start && i < end)) {
         child.setCity(i, father.getCityList().get(i));
@@ -121,6 +124,9 @@ public class GeneticAlgorithm {
       }
     }
 
+    /**
+     * if child do not contain
+     */
     for (int i = 0; i < mother.getCityList().size(); i++) {
       if (!child.getCityList().contains(mother.getCityList().get(i))) {
         for (int j = 0; j < child.getCityList().size(); j++) {

@@ -47,7 +47,10 @@ public class MainApp {
     cityList.add(new City("w", 120L,  80L));
     cityList.add(new City("x",  30L, 180L));
 
-    final GeneticAlgorithm geneticAlgorithm = new GeneticAlgorithm(5, 0.015, true);
+    final int tournamentSize = 5;
+    final double mutationRate = .05;
+    final boolean isInit = true;
+    final GeneticAlgorithm geneticAlgorithm = new GeneticAlgorithm(tournamentSize, mutationRate, isInit);
 
     // Initialize population
     final Population population = new Population(50, true, cityList);
